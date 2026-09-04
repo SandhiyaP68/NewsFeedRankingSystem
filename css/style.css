@@ -1,0 +1,82 @@
+body {
+  font-family: 'Rockwell', 'Times New Roman', serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: navy;
+  color: white;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.login-box, .form-box, .feed-box {
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Times New Roman', serif;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: navy;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Rockwell', serif;
+}
+
+button:hover {
+  background: #1a2a6c;
+}
+
+.news-item {
+  background: #fdfdfd;
+  margin: 15px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+  width: 90%;
+}
+
+.news-item h3 {
+  margin: 0 0 5px;
+  color: navy;
+}
+
+.news-item img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.rank {
+  color: navy;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin-top: 20px;
+}

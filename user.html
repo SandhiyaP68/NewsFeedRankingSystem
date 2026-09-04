@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Feed</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h2>User - Ranked Feed</h2></header>
+  <main>
+    <form id="userPostForm" class="form-box">
+      <input type="text" id="userTitle" placeholder="Post Title" required>
+      <input type="number" id="userLikes" placeholder="Likes" required>
+      <input type="number" id="userRelevance" placeholder="Relevance (10-100)" required>
+      <input type="file" id="userPhoto" accept="image/*">
+      <button type="submit">Add Post</button>
+    </form>
+
+    <div id="feed" class="feed-box"></div>
+    <div class="btn-group">
+      <button onclick="loadFeed()">Refresh Feed</button>
+      <button onclick="location.href='index.html'">Close</button>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
